@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./images/">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/Form.css">
+    <title>Form</title>
+</head>
+
+<body class="sm">
+    <nav>
+        <ul class="header">
+            <li class="logo">
+                <a href=""> <img src="./images/RickAndMorty/Rick&Morty.gif"> </a>
+            </li>
+            <li><a href="./index.html"> Inicio </a></li>
+            <li><a href="./SobreMi.html"> Sobre mi </a></li>
+            <li><a href="./Contacto.html"> Contáctenos </a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Formulario de Contacto</h1>
+        </br>
+        <form method="GET" action="" class="form-flex">
+            <div class="input-form">
+                <div> <label for="nombre">Nombre</label></div>
+                <input id="nombre" name="nombre" type="text" required>
+            </div>
+
+            <div class="input-form">
+                <div><label for="apellido">Apellido</label></div>
+                <input id="apellido" name="apellido" type="text" required>
+            </div>
+
+            <div class="input-form">
+                <div> <label for="edad">Edad</label></div>
+                <input id="edad" name="edad" type="number" required>
+            </div>
+
+            <div class="input-form">
+                <div><label for="email">Correo Electronico</label></div>
+                <input id="email" name="edad" type="email" required>
+            </div>
+
+            <div class="input-form">
+                <div><label for="contraseña">Contraseña</label></div>
+                <input id="contraseña" name="contraseña" type="password" required>
+            </div>
+
+            <div class="input-form">
+                <div> <label for="fechanacimiento">Fecha de Nacimeinto</label></div>
+                <input id="fechanacimeinto" name="fechanacimeinto" type="date" required>
+            </div>
+
+
+            <div class="seleccion">
+                <div class="input-form opciones">
+                    <h5><b>Género</b></h5><br>
+                    <input id="mujer" name="genero" type="radio">
+                    <label for="mujer">Mujer</label>
+                    <input id="hombre" name="genero" type="radio">
+                    <label for="hombre">Hombre</label>
+
+                </div>
+                <div class="input-form opciones">
+                    <h5><b>Deporte favorito</b></h5><br>
+
+                    <div>
+                        <input id="futbol" name="futbol" type="checkbox">
+                        <label for="futbol">Futbol</label>
+                    </div>
+                    <div>
+                        <input id="voley" name="voley" type="checkbox">
+                        <label for="voley">Voley</label>
+                    </div>
+                    <div>
+                        <input id="natacion" name="natacion" type="checkbox">
+                        <label for="natacion">Natación</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-button">
+                <button type="submit"><b>Enviar</b> </button>
+            </div>
+        </form>
+
+    </div>
+
+
+    <footer>
+        <p>Holiwi<i class="fas fa-heart"></i></p>
+    </footer>
+</body>
+
+</html>

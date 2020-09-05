@@ -1,0 +1,119 @@
+/*header*/
+
+.rym {
+    background-image: url(../images/img.png);
+    background-size: cover;
+}
+
+nav {
+    background-color: #186683;
+    color: white;
+    height: 80px;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header li {
+    width: 10%;
+    list-style: none;
+}
+
+.header a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
+    /*font-family: 'Indie Flower', cursive;*/
+}
+
+.header a:hover {
+    background-color: white;
+    border: 3px white solid;
+    border-radius: 20px;
+    color: black;
+    padding: 3px 10px 3px 10px;
+}
+
+.logo {
+    flex-grow: 3;
+}
+
+.logo img {
+    width: 8%;
+    display: inline-block;
+}
+
+
+/* Content Page */
+
+.container {
+    margin: -1% 10% 5% 10%;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+}
+
+.name {
+    width: 350px;
+    height: 150px;
+}
+
+.main-characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.character {
+    width: 25%;
+    margin: 3%;
+    background-color: #1f7999;
+    /*cce8f1*/
+    border: 2px #a58d8d solid;
+    border-right: 3px #dbdbdb solid;
+    border-bottom: 3px #dbdbdb solid;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-size: 1rem;
+}
+
+.character img {
+    width: 80%;
+    border-radius: 3%;
+}
+
+.character div {
+    text-align: justify;
+    padding-left: 5%;
+}
+
+.character h2 {
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px rgb(129, 129, 129);
+}
+
+.character b {
+    text-shadow: 5px 5px 5px rgb(129, 129, 129);
+}
+
+footer {
+    background-color: #186683;
+    color: white;
+    height: 80px;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 1.5%;
+}
+
+.fa-heart {
+    color: rgb(189, 0, 0);
+}
